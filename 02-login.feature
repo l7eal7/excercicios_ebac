@@ -15,8 +15,8 @@
     Dado que informo o usuário "usuario_valido@example.com"
     E informo a senha "senha_valida"
     Quando clico no botão "Entrar"
-    Então devo ser autenticado
-    E devo ser direcionado para a tela de checkout
+    Então devo ser autenticado e direcionado para a página dee checkout
+
 
   Esquema do Cenário: Login inválido não deve permitir acesso
     Dado que informo o usuário "<usuario>"
