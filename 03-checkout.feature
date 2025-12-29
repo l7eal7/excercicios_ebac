@@ -11,8 +11,7 @@
 
   Cenário: Cadastro válido com todos os dados obrigatórios
     Dado que informo todos os campos obrigatórios corretamente
-    E informo o e-mail "cliente@example.com"
-    E informmo a senha "senha_cadastro"
+    E informo o e-mail "cliente@example.com" 
     Quando clico em "Finalizar cadastro"
     Então o cadastro deve ser concluído com sucesso
 
